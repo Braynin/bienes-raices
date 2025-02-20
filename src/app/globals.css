@@ -2,20 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
-
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.8;
+}
+p {
+  color: black;
+  font-size: 2rem;
+}
+.contenedor {
+  width: 95%;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  margin: 2.5rem 0;
+  font-weight: 300;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.8rem;
+}
+h2 {
+  font-size: 3.4rem;
+}
+h3 {
+  font-size: 3rem;
+}
+h4 {
+  font-size: 2.6rem;
 }

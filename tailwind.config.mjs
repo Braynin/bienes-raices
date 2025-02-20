@@ -6,10 +6,17 @@ export default {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      celular: { max: "768px" },
+      tablet: { min: "769px", max: "1023px" },
+      escritorio: { min: "1024px" },
+    },
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        amarillo: "#E08709",
+        verde: "#71B100",
+        gris: "#e1e1e1",
+        grisOscuro: "#333333",
       },
     },
   },
