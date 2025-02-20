@@ -14,7 +14,9 @@ export default {
     extend: {
       colors: {
         amarillo: "#E08709",
+        amarilloHover: "#ea580c",
         verde: "#71B100",
+        verdeHover: "#4d7c0f",
         gris: "#e1e1e1",
         grisOscuro: "#333333",
       },

@@ -1,6 +1,9 @@
 import { Lato } from "next/font/google";
 import "../app/globals.css";
 
+import Header from "@/components/ui/header.js";
+import Footer from "@/components/ui/footer.js";
+
 const latoSans = Lato({
   weight: ["300", "400", "700", "900"],
   variable: "--font-lato-sans",
@@ -15,7 +18,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es" className={latoSans.variable}>
-      <body>{children}</body>
+      <body>
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
