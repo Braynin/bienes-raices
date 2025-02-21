@@ -1,7 +1,8 @@
 "use client";
 import { usePathname } from "next/navigation";
-import { useState, useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link.js";
+
 import navOptions from "../data/navOptions.js";
 
 export default function Header() {
@@ -19,7 +20,7 @@ export default function Header() {
     >
       <div className="w-[95%] max-w-[120rem] h-full mx-auto flex flex-col justify-between">
         <div className="flex justify-between pt-12 celular:flex-col">
-          <a href="/">
+          <Link href="/">
             <Image
               src="/logo.svg"
               width={300}
@@ -27,16 +28,16 @@ export default function Header() {
               alt="Logotipo de Bienes Raíces"
               className="object-cover"
             />
-          </a>
+          </Link>
           <nav className="flex items-center">
             {navOptions.map((option) => (
-              <a
+              <Link
                 key={option.name}
                 href={option.href}
                 className="text-white text-3xl celular:text-4xl mr-8 last-of-type:mr-0 celular:block celular:text-center"
               >
                 {option.name}
-              </a>
+              </Link>
             ))}
           </nav>
         </div>

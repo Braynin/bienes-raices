@@ -1,5 +1,7 @@
 "use client";
 import { useParams } from "next/navigation";
+import Image from "next/image";
+
 import anuncioOptions from "@/components/data/anuncioOptions";
 
 export default function AnuncioDetail() {
@@ -18,7 +20,14 @@ export default function AnuncioDetail() {
     <>
       <main className="w-[95%] mx-auto my-10 max-w-[80rem]">
         <h1 className="font-semibold">{anuncio.name}</h1>
-        <img src={anuncio.img} alt={anuncio.name} loading="lazy" />
+        <Image
+          src={anuncio.img}
+          alt={anuncio.name}
+          loading="lazy"
+          width={500}
+          height={500}
+          className="w-full"
+        />
         <div>
           <p className="my-10 text-verde font-bold text-5xl">
             {anuncio.precio}
@@ -26,13 +35,16 @@ export default function AnuncioDetail() {
           <ul className="flex p-0  max-w-[40rem]">
             {anuncio.caracteristicas.map((caracteristica) => (
               <li key={caracteristica.name} className="flex  flex-1">
-                <img
+                <Image
                   src={caracteristica.icon}
                   alt={caracteristica.name}
                   loading="lazy"
-                  className="max-h-12 mr-4 "
+                  width={30}
+                  height={30}
+                  className="h-10"
                 />
-                <p className="font-black">{caracteristica.cantidad}</p>
+
+                <p className="font-black mx-4">{caracteristica.cantidad}</p>
               </li>
             ))}
           </ul>

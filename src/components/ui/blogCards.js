@@ -1,4 +1,6 @@
 import Link from "next/link.js";
+import Image from "next/image.js";
+
 import blogOptions from "../data/blogOptions.js";
 
 export default function BlogCards({ cantidadDeCards }) {
@@ -11,7 +13,14 @@ export default function BlogCards({ cantidadDeCards }) {
           key={blog.name}
           className="mb-8 last-of-type:mb-0 grid grid-cols-[1fr_2fr] gap-8 celular:grid-cols-1 celular:gap-0"
         >
-          <img src={blog.img} alt={blog.name} loading="lazy" />
+          <Image
+            src={blog.img}
+            alt={blog.name}
+            width={500}
+            height={500}
+            className="w-full"
+          />
+
           <div className="celular:mt-8">
             <Link
               href={`/blog/${blog.id}`}

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import MasSobreNosotros from "@/components/ui/masSobreNosotros";
 
 export default function Nosotros() {
@@ -6,7 +8,15 @@ export default function Nosotros() {
       <main className="w-[95%] max-w-[120rem] mx-auto my-10">
         <h1 className="font-semibold">Conoce sobre Nosotros</h1>
         <div className="grid grid-cols-2 gap-8">
-          <img src="/nosotros.jpg" alt="Imagen de nosotros" loading="lazy" />
+          <Image
+            src="/nosotros.jpg"
+            alt="Imagen de nosotros"
+            loading="lazy"
+            width={500}
+            height={500}
+            className="w-full"
+          />
+
           <div className="pr-44">
             <p className="font-bold text-3xl mb-8">25 Años de Experiencia</p>
             <p className="mb-8 text-3xl leading-10">

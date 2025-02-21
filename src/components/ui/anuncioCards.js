@@ -1,6 +1,8 @@
 import Link from "next/link.js";
-import anuncioOptions from "../data/anuncioOptions.js";
+import Image from "next/image.js";
 import Boton from "@/components/ui/boton.js";
+
+import anuncioOptions from "../data/anuncioOptions.js";
 
 export default function AnuncioCards({ cantidadDeCards }) {
   const cantidadNum = Number(cantidadDeCards) || 0;
@@ -13,12 +15,14 @@ export default function AnuncioCards({ cantidadDeCards }) {
             key={anuncio.name}
             className="bg-neutral-200 border-[1px] border-solid border-neutral-300 max-h-max"
           >
-            <img
+            <Image
               src={anuncio.img}
               alt={anuncio.name}
-              loading="lazy"
+              width={500}
+              height={500}
               className="w-full"
             />
+
             <div className="p-8 max-h-max ">
               <h3 className="m-0 font-semibold text-4xl">{anuncio.name}</h3>
               <p className="m-0 px-8 pt-4 h-[100px] text-3xl">
@@ -30,12 +34,15 @@ export default function AnuncioCards({ cantidadDeCards }) {
               <ul className="flex p-0 ">
                 {anuncio.caracteristicas.map((caracteristica) => (
                   <li key={caracteristica.name} className="flex  flex-1">
-                    <img
+                    <Image
                       src={caracteristica.icon}
                       alt={caracteristica.name}
+                      width={50}
+                      height={30}
                       loading="lazy"
                       className="max-h-12 mr-4 "
                     />
+
                     <p className="font-black">{caracteristica.cantidad}</p>
                   </li>
                 ))}

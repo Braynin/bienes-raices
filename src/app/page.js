@@ -1,5 +1,6 @@
 import Boton from "@/components/ui/boton.js";
 import Link from "next/link.js";
+import Image from "next/image";
 import MasSobreNosotros from "@/components/ui/masSobreNosotros.js";
 import AnuncioCards from "@/components/ui/anuncioCards.js";
 import BlogCards from "@/components/ui/blogCards.js";
@@ -40,12 +41,15 @@ export default function Home() {
         <section className="bg-verde rounded-[2rem] text-[2.4rem] px-14 pb-20 text-white flex flex-col ">
           <h3 className="mb-8 font-bold">Testimoniales</h3>
           <div className="relative flex flex-col my-auto">
-            <img
+            <Image
               src="/comilla.svg"
               alt="Comilla decorativa"
-              className="absolute left-0 top-0 w-20"
               loading="lazy"
+              width={50}
+              height={50}
+              className="absolute left-0 top-0"
             />
+
             <blockquote className="w-4/5 pl-12 mx-auto text-[20px]">
               El personal se comportó de una excelente forma, muy buena atención
               y la casa que me ofrecieron cumple con todas mis expectativas.
