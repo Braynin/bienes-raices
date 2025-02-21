@@ -4,8 +4,10 @@ const anuncioOptionsSinId = [
   {
     name: "Casa de Lujo en el Lago",
     img: "/anuncio1.jpg",
-    description:
+    description1:
       "Casa de lujo en el lago con excelente vista, acabados de lujo a un excelente precio.",
+    description2:
+      "Descubre la magnificencia de esta casa situada en la costa de un mar turquesa, con diseño contemporáneo y acabados de mármol italiano. Su imponente fachada de vidrio refleja la luz natural, iluminando cada rincón. La amplia terraza ofrece vistas panorámicas, perfecta para relajarse en la piscina infinita. Una cocina gourmet, salones amplios y un jardín interior crean un ambiente elegante. Esta residencia define el lujo moderno, fusionando comodidad, estilo y exclusividad en cada pequeño detalle.",
     precio: "$3,000,000",
     caracteristicas: [
       {
@@ -28,8 +30,10 @@ const anuncioOptionsSinId = [
   {
     name: "Casa terminados de lujo",
     img: "/anuncio2.jpg",
-    description:
+    description1:
       "Casa con diseño moderno, así como tecnología inteligente y amueblada.",
+    description2:
+      "Descubre la magnificencia de esta casa situada en la costa de un mar turquesa, con diseño contemporáneo y acabados de mármol italiano. Su imponente fachada de vidrio refleja la luz natural, iluminando cada rincón. La amplia terraza ofrece vistas panorámicas, perfecta para relajarse en la piscina infinita. Una cocina gourmet, salones amplios y un jardín interior crean un ambiente elegante. Esta residencia define el lujo moderno, fusionando comodidad, estilo y exclusividad en cada pequeño detalle.",
     precio: "$4,000,000",
     caracteristicas: [
       {
@@ -52,9 +56,89 @@ const anuncioOptionsSinId = [
   {
     name: "Casa con alberca",
     img: "/anuncio3.jpg",
-    description:
+    description1:
       "Casa con alberca y acabados de lujo en la ciudad, excelente oportunidad.",
+    description2:
+      "Descubre la magnificencia de esta casa situada en la costa de un mar turquesa, con diseño contemporáneo y acabados de mármol italiano. Su imponente fachada de vidrio refleja la luz natural, iluminando cada rincón. La amplia terraza ofrece vistas panorámicas, perfecta para relajarse en la piscina infinita. Una cocina gourmet, salones amplios y un jardín interior crean un ambiente elegante. Esta residencia define el lujo moderno, fusionando comodidad, estilo y exclusividad en cada pequeño detalle.",
     precio: "$5,500,000",
+    caracteristicas: [
+      {
+        name: "icono wc",
+        icon: "/icono_wc.svg",
+        cantidad: 3,
+      },
+      {
+        name: "icono estacionamiento",
+        icon: "/icono_estacionamiento.svg",
+        cantidad: 2,
+      },
+      {
+        name: "icono dormitorio",
+        icon: "/icono_dormitorio.svg",
+        cantidad: 4,
+      },
+    ],
+  },
+  {
+    name: "Casa Clasica Urbana",
+    img: "/anuncio4.jpg",
+    description1:
+      "Casa con alberca y acabados de lujo en la ciudad, excelente oportunidad.",
+    description2:
+      "Descubre la magnificencia de esta casa situada en la costa de un mar turquesa, con diseño contemporáneo y acabados de mármol italiano. Su imponente fachada de vidrio refleja la luz natural, iluminando cada rincón. La amplia terraza ofrece vistas panorámicas, perfecta para relajarse en la piscina infinita. Una cocina gourmet, salones amplios y un jardín interior crean un ambiente elegante. Esta residencia define el lujo moderno, fusionando comodidad, estilo y exclusividad en cada pequeño detalle.",
+    precio: "$5,000,000",
+    caracteristicas: [
+      {
+        name: "icono wc",
+        icon: "/icono_wc.svg",
+        cantidad: 3,
+      },
+      {
+        name: "icono estacionamiento",
+        icon: "/icono_estacionamiento.svg",
+        cantidad: 2,
+      },
+      {
+        name: "icono dormitorio",
+        icon: "/icono_dormitorio.svg",
+        cantidad: 4,
+      },
+    ],
+  },
+  {
+    name: "Casa con hermoso jardín",
+    img: "/anuncio5.jpg",
+    description1:
+      "Casa con un hermoso jardín y acabados de lujo en la ciudad, excelente oportunidad.",
+    description2:
+      "Descubre la magnificencia de esta casa situada en la costa de un mar turquesa, con diseño contemporáneo y acabados de mármol italiano. Su imponente fachada de vidrio refleja la luz natural, iluminando cada rincón. La amplia terraza ofrece vistas panorámicas, perfecta para relajarse en la piscina infinita. Una cocina gourmet, salones amplios y un jardín interior crean un ambiente elegante. Esta residencia define el lujo moderno, fusionando comodidad, estilo y exclusividad en cada pequeño detalle.",
+    precio: "$5,500,000",
+    caracteristicas: [
+      {
+        name: "icono wc",
+        icon: "/icono_wc.svg",
+        cantidad: 3,
+      },
+      {
+        name: "icono estacionamiento",
+        icon: "/icono_estacionamiento.svg",
+        cantidad: 2,
+      },
+      {
+        name: "icono dormitorio",
+        icon: "/icono_dormitorio.svg",
+        cantidad: 4,
+      },
+    ],
+  },
+  {
+    name: "Casa con alberca de lujo",
+    img: "/anuncio6.jpg",
+    description1:
+      "Casa de lujo en el lago con excelente vista, acabados de lujo a un excelente precio.",
+    description2:
+      "Descubre la magnificencia de esta casa situada en la costa de un mar turquesa, con diseño contemporáneo y acabados de mármol italiano. Su imponente fachada de vidrio refleja la luz natural, iluminando cada rincón. La amplia terraza ofrece vistas panorámicas, perfecta para relajarse en la piscina infinita. Una cocina gourmet, salones amplios y un jardín interior crean un ambiente elegante. Esta residencia define el lujo moderno, fusionando comodidad, estilo y exclusividad en cada pequeño detalle.",
+    precio: "$8,500,000",
     caracteristicas: [
       {
         name: "icono wc",
