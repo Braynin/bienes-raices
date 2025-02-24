@@ -22,7 +22,7 @@ export default function MasSobreNosotros() {
               />
 
               <h3 className="uppercase font-medium">{option.name}</h3>
-              <p>{option.description}</p>
+              <p className="celular:mb-20">{option.description}</p>
             </div>
           ))}
         </div>

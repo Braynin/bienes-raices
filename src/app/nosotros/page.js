@@ -7,7 +7,7 @@ export default function Nosotros() {
     <>
       <main className="w-[95%] max-w-[120rem] mx-auto my-10">
         <h1 className="font-semibold">Conoce sobre Nosotros</h1>
-        <div className="grid grid-cols-2 gap-8">
+        <div className="grid grid-cols-2 gap-8 celular:grid-cols-1">
           <Image
             src="/nosotros.webp"
             alt="Imagen de nosotros"
@@ -17,7 +17,7 @@ export default function Nosotros() {
             className="w-full"
           />
 
-          <div className="pr-44">
+          <div className="pr-44 celular:px-10">
             <p className="font-bold text-3xl mb-8">25 Años de Experiencia</p>
             <p className="mb-8 text-3xl leading-10">
               Somos una empresa líder en bienes raíces, comprometida en ofrecer
@@ -31,7 +31,7 @@ export default function Nosotros() {
               compromiso social, para superar expectativas y brindar servicio
               personalizado.
             </p>
-            <p className="text-3xl leading-10">
+            <p className="text-3xl leading-10 ">
               Con años de experiencia, nuestra empresa se destaca por su
               compromiso y profesionalismo. Ofrecemos asesoramiento integral en
               el proceso de compra o venta. Creemos en la transparencia y la
