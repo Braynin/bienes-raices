@@ -3,7 +3,7 @@ import createId from "../functions/createId";
 const blogOptionsSinId = [
   {
     name: "Terraza en el techo de tu casa",
-    img: "/blog1.jpg",
+    img: "/blog1.webp",
     description1:
       "Consejos para construir una terraza en el techo de tu casa con los mejores materiales y ahorrando dinero",
     description2:
@@ -16,7 +16,7 @@ const blogOptionsSinId = [
   },
   {
     name: "Construye una alberca",
-    img: "/blog2.jpg",
+    img: "/blog2.webp",
     description1:
       "Construye una alberca en tu casa con los mejores materiales y ahorrando dinero",
     description2:
@@ -28,7 +28,7 @@ const blogOptionsSinId = [
   },
   {
     name: "Guía para la decoración de tu hogar",
-    img: "/blog3.jpg",
+    img: "/blog3.webp",
     description1:
       "Maximiza el espacio en tu hogar con esta guia, aprende a combinar muebles y colores para darle vida a tu espacio",
     description2:
@@ -40,7 +40,7 @@ const blogOptionsSinId = [
   },
   {
     name: "Guía para la decoración de tu habitación",
-    img: "/blog4.jpg",
+    img: "/blog4.webp",
     description1:
       "Maximiza el espacio en tu hogar con esta guia, aprende a combinar muebles y colores para darle vida a tu espacio",
     description2:

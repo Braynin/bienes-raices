@@ -18,7 +18,7 @@ export default function Header() {
     <header
       className={`pb-12${
         isHome
-          ? " h-svh bg-cover bg-center bg-[url('/header.jpg')]"
+          ? " h-svh bg-cover bg-center bg-[url('/header.webp')]"
           : " bg-grisOscuro"
       }`}
     >
@@ -27,7 +27,7 @@ export default function Header() {
         onClick={() => setDarkMode((prev) => !prev)}
       >
         <Image
-          src="/dark-mode.svg"
+          src="/dark-mode.webp"
           width={30}
           height={30}
           alt="Telefono"
@@ -38,7 +38,7 @@ export default function Header() {
         <div className="flex justify-between  celular:flex-col">
           <Link href="/" className="self-center">
             <Image
-              src="/logo.svg"
+              src="/logo.webp"
               width={300}
               height={100}
               alt="Logotipo de Bienes Raíces"
@@ -51,7 +51,7 @@ export default function Header() {
             onClick={() => setMenuOpen((prev) => !prev)}
           >
             <Image
-              src="/barras.svg"
+              src="/barras.webp"
               width={50}
               height={50}
               alt="Icono Menu Responsivo  "

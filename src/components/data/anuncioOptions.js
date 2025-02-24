@@ -3,7 +3,7 @@ import createId from "../functions/createId";
 const anuncioOptionsSinId = [
   {
     name: "Casa de Lujo en el Lago",
-    img: "/anuncio1.jpg",
+    img: "/anuncio1.webp",
     description1:
       "Casa de lujo en el lago con excelente vista, acabados de lujo a un excelente precio.",
     description2:
@@ -12,24 +12,24 @@ const anuncioOptionsSinId = [
     caracteristicas: [
       {
         name: "icono wc",
-        icon: "/icono_wc.svg",
+        icon: "/icono_wc.webp",
         cantidad: 3,
       },
       {
         name: "icono estacionamiento",
-        icon: "/icono_estacionamiento.svg",
+        icon: "/icono_estacionamiento.webp",
         cantidad: 2,
       },
       {
         name: "icono dormitorio",
-        icon: "/icono_dormitorio.svg",
+        icon: "/icono_dormitorio.webp",
         cantidad: 4,
       },
     ],
   },
   {
     name: "Casa terminados de lujo",
-    img: "/anuncio2.jpg",
+    img: "/anuncio2.webp",
     description1:
       "Casa con diseño moderno, así como tecnología inteligente y amueblada.",
     description2:
@@ -38,24 +38,24 @@ const anuncioOptionsSinId = [
     caracteristicas: [
       {
         name: "icono wc",
-        icon: "/icono_wc.svg",
+        icon: "/icono_wc.webp",
         cantidad: 3,
       },
       {
         name: "icono estacionamiento",
-        icon: "/icono_estacionamiento.svg",
+        icon: "/icono_estacionamiento.webp",
         cantidad: 2,
       },
       {
         name: "icono dormitorio",
-        icon: "/icono_dormitorio.svg",
+        icon: "/icono_dormitorio.webp",
         cantidad: 4,
       },
     ],
   },
   {
     name: "Casa con alberca",
-    img: "/anuncio3.jpg",
+    img: "/anuncio3.webp",
     description1:
       "Casa con alberca y acabados de lujo en la ciudad, excelente oportunidad.",
     description2:
@@ -64,24 +64,24 @@ const anuncioOptionsSinId = [
     caracteristicas: [
       {
         name: "icono wc",
-        icon: "/icono_wc.svg",
+        icon: "/icono_wc.webp",
         cantidad: 3,
       },
       {
         name: "icono estacionamiento",
-        icon: "/icono_estacionamiento.svg",
+        icon: "/icono_estacionamiento.webp",
         cantidad: 2,
       },
       {
         name: "icono dormitorio",
-        icon: "/icono_dormitorio.svg",
+        icon: "/icono_dormitorio.webp",
         cantidad: 4,
       },
     ],
   },
   {
     name: "Casa Clasica Urbana",
-    img: "/anuncio4.jpg",
+    img: "/anuncio4.webp",
     description1:
       "Casa con alberca y acabados de lujo en la ciudad, excelente oportunidad.",
     description2:
@@ -90,24 +90,24 @@ const anuncioOptionsSinId = [
     caracteristicas: [
       {
         name: "icono wc",
-        icon: "/icono_wc.svg",
+        icon: "/icono_wc.webp",
         cantidad: 3,
       },
       {
         name: "icono estacionamiento",
-        icon: "/icono_estacionamiento.svg",
+        icon: "/icono_estacionamiento.webp",
         cantidad: 2,
       },
       {
         name: "icono dormitorio",
-        icon: "/icono_dormitorio.svg",
+        icon: "/icono_dormitorio.webp",
         cantidad: 4,
       },
     ],
   },
   {
     name: "Casa con hermoso jardín",
-    img: "/anuncio5.jpg",
+    img: "/anuncio5.webp",
     description1:
       "Casa con un hermoso jardín y acabados de lujo en la ciudad, excelente oportunidad.",
     description2:
@@ -116,24 +116,24 @@ const anuncioOptionsSinId = [
     caracteristicas: [
       {
         name: "icono wc",
-        icon: "/icono_wc.svg",
+        icon: "/icono_wc.webp",
         cantidad: 3,
       },
       {
         name: "icono estacionamiento",
-        icon: "/icono_estacionamiento.svg",
+        icon: "/icono_estacionamiento.webp",
         cantidad: 2,
       },
       {
         name: "icono dormitorio",
-        icon: "/icono_dormitorio.svg",
+        icon: "/icono_dormitorio.webp",
         cantidad: 4,
       },
     ],
   },
   {
     name: "Casa con alberca de lujo",
-    img: "/anuncio6.jpg",
+    img: "/anuncio6.webp",
     description1:
       "Casa de lujo en el lago con excelente vista, acabados de lujo a un excelente precio.",
     description2:
@@ -142,17 +142,17 @@ const anuncioOptionsSinId = [
     caracteristicas: [
       {
         name: "icono wc",
-        icon: "/icono_wc.svg",
+        icon: "/icono_wc.webp",
         cantidad: 3,
       },
       {
         name: "icono estacionamiento",
-        icon: "/icono_estacionamiento.svg",
+        icon: "/icono_estacionamiento.webp",
         cantidad: 2,
       },
       {
         name: "icono dormitorio",
-        icon: "/icono_dormitorio.svg",
+        icon: "/icono_dormitorio.webp",
         cantidad: 4,
       },
     ],

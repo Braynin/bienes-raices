@@ -6,7 +6,7 @@ export default function Anuncios() {
       <main className="w-[95%] mx-auto my-10 max-w-[80rem]">
         <h1>Contacto</h1>
         <Image
-          src="/destacada3.jpg"
+          src="/destacada3.webp"
           alt="Imagen de contacto"
           width={500}
           height={500}

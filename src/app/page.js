@@ -21,7 +21,7 @@ export default function Home() {
         </div>
       </section>
       {/* ENCUENTRA CONTACTO */}
-      <section className="bg-[url('/encuentra.jpg')] bg-center bg-cover py-40 flex flex-col items-center">
+      <section className="bg-[url('/encuentra.webp')] bg-center bg-cover py-40 flex flex-col items-center">
         <h2 className="text-white font-black text-6xl">
           Encuentra la casa de tus sueños
         </h2>
@@ -42,7 +42,7 @@ export default function Home() {
           <h3 className="mb-8 font-bold">Testimoniales</h3>
           <div className="relative flex flex-col my-auto">
             <Image
-              src="/comilla.svg"
+              src="/comilla.webp"
               alt="Comilla decorativa"
               loading="lazy"
               width={50}

@@ -9,7 +9,7 @@ export default function Nosotros() {
         <h1 className="font-semibold">Conoce sobre Nosotros</h1>
         <div className="grid grid-cols-2 gap-8">
           <Image
-            src="/nosotros.jpg"
+            src="/nosotros.webp"
             alt="Imagen de nosotros"
             loading="lazy"
             width={500}
