@@ -16,9 +16,9 @@ export default function MasSobreNosotros() {
               <Image
                 src={option.icon}
                 alt={`Icono ${option.name}`}
-                width={500}
-                height={500}
-                className="h-40"
+                width={90}
+                height={90}
+                className="h-36"
               />
 
               <h3 className="uppercase font-medium">{option.name}</h3>

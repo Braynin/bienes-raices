@@ -11,7 +11,7 @@ export default function Footer() {
               <Link
                 key={option.name}
                 href={option.href}
-                className="text-white text-3xl celular:text-4xl mr-8 celular:mr-0 last-of-type:mr-0 celular:block celular:text-center"
+                className="text-white hover:text-verde text-3xl celular:text-4xl mr-8 celular:mr-0 last-of-type:mr-0 celular:block celular:text-center"
               >
                 {option.name}
               </Link>

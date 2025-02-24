@@ -15,6 +15,14 @@ body.darkMode {
   background-color: #333333;
   color: white;
 }
+body.darkMode form fieldset legend,
+body.darkMode form fieldset label,
+body.darkMode form fieldset p {
+  color: black;
+}
+body.darkMode form fieldset div label {
+  color: white;
+}
 a {
   text-decoration: none;
 }
