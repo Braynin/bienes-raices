@@ -13,7 +13,7 @@ export default function AnuncioCards({ cantidadDeCards }) {
         {anuncioOptions.slice(0, cantidadNum).map((anuncio) => (
           <div
             key={anuncio.name}
-            className="bg-neutral-200 border-[1px] border-solid border-neutral-300 max-h-max"
+            className="bg-gris border-[1px] border-solid border-neutral-300 max-h-max"
           >
             <Image
               src={anuncio.img}
@@ -24,8 +24,10 @@ export default function AnuncioCards({ cantidadDeCards }) {
             />
 
             <div className="p-8 max-h-max ">
-              <h3 className="m-0 font-semibold text-4xl">{anuncio.name}</h3>
-              <p className="m-0 px-8 pt-4 h-[100px] text-3xl">
+              <h3 className="m-0 font-semibold text-4xl text-black">
+                {anuncio.name}
+              </h3>
+              <p className="m-0 px-8 pt-4 h-[100px] text-3xl text-black">
                 {anuncio.description1}
               </p>
               <p className="my-10 text-verde font-bold text-4xl celular:text-5xl">
@@ -43,7 +45,9 @@ export default function AnuncioCards({ cantidadDeCards }) {
                       className="max-h-12 mr-4 "
                     />
 
-                    <p className="font-black">{caracteristica.cantidad}</p>
+                    <p className="font-black text-black">
+                      {caracteristica.cantidad}
+                    </p>
                   </li>
                 ))}
               </ul>

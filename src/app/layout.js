@@ -3,6 +3,7 @@ import "../app/globals.css";
 
 import Header from "@/components/ui/header.js";
 import Footer from "@/components/ui/footer.js";
+import ClientProviders from "@/components/functions/ClientProviders.js";
 
 const latoSans = Lato({
   weight: ["300", "400", "700", "900"],
@@ -19,9 +20,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es" className={latoSans.variable}>
       <body>
-        <Header />
-        {children}
-        <Footer />
+        <ClientProviders>
+          <Header />
+          {children}
+          <Footer />
+        </ClientProviders>
       </body>
     </html>
   );
